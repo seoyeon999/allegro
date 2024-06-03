@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>allegro</title>
+    <!--favicon-->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <!--fonts-->
+    <link rel="stylesheet" href="./fonts/stylesheet_Belgro.css">
+    <link rel="stylesheet" href="./fonts/stylesheet_GmarketSans.css">
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--css-->
+    <!--cursor-->
+    <link rel='stylesheet' href='https://use.typekit.net/kfu3rpe.css'>
+    <!--main-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <h1><a href="#"><img src="./images/logo.png" alt="로고이미지"></a></h1>
+            <ul class="gnb">
+                <li><a href="#class">CLASSES</a></li>
+                <li><a href="#about">WHO WE ARE</a></li>
+                <li><a href="#instructor">INSTRUCTORS</a></li>
+                <li><a href="#schedule">SCHEDULE</a></li>
+                <li><a href="#ticket">TICKETS</a></li>
+                <li><a href="./login.html"><img src="./images/header_icon.png" alt="로그인아이콘"></a></li>
+            </ul>
+            <!--햄버거버튼 시작-->
+            <div class="slide-open" id="slide-open">
+                <span class="burgur" id="burgur">
+                    <span class="top-line"></span>
+                    <span class="bot-line"></span>
+                </span>
+            </div><!--slide-open-->
+            <div class="slide" id="slide">
+                <ul>
+                    <li><a href="#class">CLASSES</a></li>
+                    <li><a href="#about">WHO WE ARE</a></li>
+                    <li><a href="#instructor">INSTRUCTORS</a></li>
+                    <li><a href="#schedule">SCHEDULE</a></li>
+                    <li><a href="#ticket">TICKETS</a></li>
+                </ul>
+                <div>
+                    <p><a href="./login.html">My allegro</a></p>
+                    <ol>
+                        <li><a href="https://www.youtube.com/" target="_blank"><img src="./images/footer_icon1.png"
+                                    alt="유튜브아이콘"></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img src="./images/footer_icon2.png"
+                                    alt="SNS아이콘"></a></li>
+                        <li><a href="https://accounts.kakao.com/login/?continue=https%3A%2F%2Fbusiness.kakao.com%2Fdashboard%2F#login"
+                                target="_blank"><img src="./images/footer_icon3.png" alt="카카오톡아이콘"></a></li>
+                    </ol>
+                </div>
+            </div><!--slide-->
+            <!--햄버거버튼 끝-->
+        </header>
+
+        <div id="banner">
+            <div class="video_pc">
+                <video src="./images/banner_pc.mp4" autoplay loop muted playsinline></video>
+            </div><!--video_pc-->
+            <video class="video_mobile" src="./images/banner_mobile169.mp4" autoplay loop muted playsinline></video>
+            <div class="cursor">
+                <div class="text txt_purple">allegro</div>
+                <div class="text txt_pink">allegro</div>
+                <div class="text txt_pitch">allegro</div>
+                <div class="text txt_pink">allegro</div>
+                <div class="text"><span>allegro</span></div>
+            </div>
+        </div><!--banner-->
+
+        <div id="class">
+            <p class="title">allegro CLASSES</p>
+            <ul>
+                <li>
+                    <img src="./images/class_contemporary.jpg" alt="현대무용이미지">
+                    <div class="class_txt">
+                        <div class="class_txt_wrap">
+                            <p class="class_title">Contempoary Dance</p>
+                            <p>기본 동작과 안무 테크닉을 배우며<br>
+                                자신만의 스타일로<br>
+                                하나의 안무를 만들어 나가는 수업</p>
+                        </div><!--class_txt_wrap-->
+                    </div>
+                </li>
+                <li>
+                    <img src="./images/class_ballet.jpg" alt="발레이미지">
+                    <div class="class_txt">
+                        <div class="class_txt_wrap">
+                            <p class="class_title">Ballet</p>
+                            <p>발레 동작과 안무를 배우며<br>
+                                균형감각, 근력, 유연성을 키울 수 있고<br>
+                                심화반은 토슈즈도 배워볼 수 있는 수업
+                            </p>
+                        </div><!--class_txt_wrap-->
+                    </div>
+                </li>
+                <li>
+                    <img src="./images/class_balletfit.jpg" alt="발레핏이미지">
+                    <div class="class_txt">
+                        <div class="class_txt_wrap">
+                            <p class="class_title">Ballet Fit</p>
+                            <p>발레 동작을 응용한 근력운동과<br>
+                                발레 스트레칭을 통해<br>
+                                다이어트와 자세 교정에 집중한 수업</p>
+                        </div><!--class_txt_wrap-->
+                    </div>
+                </li>
+                <li>
+                    <img src="./images/class_kids.jpg" alt="키즈수업이미지">
+                    <div class="class_txt">
+                        <div class="class_txt_wrap">
+                            <p class="class_title">Kids Classes</p>
+                            <p>스트레칭과 발레 기본기를 다지며<br>
+                                아이의 정서적 안정과<br>
+                                바른 자세에 도움을 주는 수업</p>
+                        </div><!--class_txt_wrap-->
+                    </div>
+                </li>
+            </ul>
+        </div><!--class-->
+
+        <div id="about">
+            <p class="title">WHO WE ARE</p>
+            <div class="about_inner">
+                <div class="about_txt">
+                    <p class="slogan">Play allegro,<br> be allegro</p>
+                    <p>알레그로<br> : 활발하고 활기찬</p>
+                    <p>발레 기반의 동작을 배우고 익히는 과정에서<br>
+                        내 몸과 마음에 집중하는 시간을 가지고<br>
+                        알레그로한 삶을 만들어갑니다.</p>
+                </div><!--about_txt-->
+                <div class="bubble1"></div><!--bubble-->
+                <div class="bubble2"></div><!--bubble-->
+            </div><!--about_inner-->
+        </div><!--about-->
+
+        <div id="instructor">
+            <p class="title">Instructors</p>
+            <ul>
+                <li>
+                    <div class="instructor_img"><img src="./images/instructor_1.jpg" alt="강사이미지1"></div>
+                    <!--instructor_img-->
+                    <div class="instructor_name">Tylor<p class="name_circle1"></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="instructor_img"><img src="./images/instructor_2.jpg" alt="강사이미지2"></div>
+                    <!--instructor_img-->
+                    <div class="instructor_name">Lina<p class="name_circle2"></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="instructor_img"><img src="./images/instructor_3.jpg" alt="강사이미지3"></div>
+                    <!--instructor_img-->
+                    <div class="instructor_name">Suzy<p class="name_circle1"></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="instructor_img"><img src="./images/instructor_4.jpg" alt="강사이미지4"></div>
+                    <!--instructor_img-->
+                    <div class="instructor_name">Ron<p class="name_circle2"></p>
+                    </div>
+                </li>
+            </ul>
+        </div><!--instructor-->
+
+        <div id="schedule">
+            <p class="title">Weekly Schedule</p>
+            <div class="level_explain">
+                <div class="level">
+                    <p class="bas_mark"></p>
+                    <p>Basic</p>
+                </div>
+                <div class="level">
+                    <p class="adv_mark"></p>
+                    <p>Advanced</p>
+                </div>
+            </div>
+            <ul>
+                <li>
+                    <p class="week week1">MON</p>
+                    <div class="class_container">
+                        <div class="class_flex">
+                            <p class="time">10:00 - 10:50</p>
+                            <div class="level">
+                                <p class="adv_mark"></p>
+                                <p>Advanced</p>
+                            </div>
+                        </div><!--class_flex-->
+                        <p class="class_name">Ballet Fit — Suzy</p>
+                        <div class="class_flex">
+                            <p class="time">16:00 - 16:50</p>
+                            <div class="level">
+                                <p class="bas_mark"></p>
+                                <p>Basic</p>
+                            </div>
+                        </div><!--class_flex-->
+                        <p class="class_name">Kids Class(B) — Lina</p>
+                        <div class="class_flex">
+                            <p class="time">20:00 - 20:50</p>
+                            <div class="level">
+                                <p class="bas_mark"></p>
+                                <p>Basic</p>
+                            </div>
+                        </div><!--class_flex-->
+                        <p class="class_name">Ballet — Ron</p>
+                        <div class="class_flex">
+                            <p class="time">21:00 - 21:50</p>
+                            <div class="level">
+                                <p class="adv_mark"></p>
+                                <p>Advanced</p>
+                            </div>
+                        </div><!--class_flex-->
+                        <p class="class_name">Contemporary Dance — Tylor</p>
+                    </div><!--class_container-->
+                </li>
+                <li>
+                    <p class="week week2">TUE</p>
+                    <div class="class_container">
+                        <div class="class_flex">
+                            <p class="time">10:00 - 10:50</p>
+                            <div class="level">
+                                <p class="bas_mark"></p>
+                                <p>Basic</p>
+                            </div>
+                        </div><!--class_flex-->
+                        <p class="class_name">Ballet Fit — Lina</p>
+                        <div class="class_flex">
+                            <p class="time">16:00 - 16:50</p>
+                            <div class="level">
+                                <p class="bas_mark"></p>
+                                <p>Basic</p>
+                            </div>
+                        </div><!--class_flex-->
+                        <p class="class_name">Kids Class(C) — Suzy</p>
+                        <div class="class_flex">
+                            <p class="time">20:00 - 20:50</p>
+                            <div class="level">
+                                <p class="bas_mark"></p>
+                                <p>Basic</p>
+                            </div>
+                        </div><!--class_flex-->
+                        <p class="class_name">Contemporary Dance — Tylor</p>
+                        <div class="class_flex">
+                            <p class="time">21:00 - 21:50</p>
+                            <div class="level">
+                                <p class="adv_mark"></p>
+                                <p>Advanced</p>
+                            </div>
+                        </div><!--class_flex-->
+                        <p class="class_name">Ballet — Ron</p>
+                    </div><!--class_container-->
+                </li>
+                <li>
+                    <p class="week week1">WED</p>
+                    <div class="class_container">
+                        <div class="class_flex">
+                            <p class="time">10:00 - 10:50</p>
+                            <div class="level">
+                                <p class="adv_mark"></p>
+                                <p>Advanced</p>
+                            </div>
+                        </div><!--class_flex-->
+                        <p class="class_name">Ballet Fit — Suzy</p>
+                        <div class="class_flex">
+                            <p class="time">16:00 - 16:50</p>
+                            <div class="level">
+                                <p class="bas_mark"></p>
+                                <p>Basic</p>
+                            </div>
+                        </div><!--class_flex-->
+                        <p class="class_name">Kids Class(B) — Lina</p>
+                        <div class="class_flex">
+                            <p class="time">20:00 - 20:50</p>
+                            <div class="level">
+                                <p class="bas_mark"></p>
+                                <p>Basic</p>
+                            </div>
+                        </div><!--class_flex-->
+                        <p class="class_name">Ballet — Ron</p>
+                        <div class="class_flex">
+                            <p class="time">21:00 - 21:50</p>
+                            <div class="level">
+                                <p class="adv_mark"></p>
+                                <p>Advanced</p>
+                            </div>
+                        </div><!--class_flex-->
+                        <p class="class_name">Contemporary Dance — Tylor</p>
+                    </div><!--class_container-->
+                </li>
+                <li>
+                    <p class="week week2">THU</p>
+                    <div class="class_container">
+                        <div class="class_flex">
+                            <p class="time">10:00 - 10:50</p>
+                            <div class="level">
+                                <p class="bas_mark"></p>
+                                <p>Basic</p>
+                            </div>
+                        </div><!--class_flex-->
+                        <p class="class_name">Ballet Fit — Lina</p>
+                        <div class="class_flex">
+                            <p class="time">16:00 - 16:50</p>
+                            <div class="level">
+                                <p class="bas_mark"></p>
+                                <p>Basic</p>
+                            </div>
+                        </div><!--class_flex-->
+                        <p class="class_name">Kids Class(C) — Suzy</p>
+                        <div class="class_flex">
+                            <p class="time">20:00 - 20:50</p>
+                            <div class="level">
+                                <p class="bas_mark"></p>
+                                <p>Basic</p>
+                            </div>
+                        </div><!--class_flex-->
+                        <p class="class_name">Contemporary Dance — Tylor</p>
+                        <div class="class_flex">
+                            <p class="time">21:00 - 21:50</p>
+                            <div class="level">
+                                <p class="adv_mark"></p>
+                                <p>Advanced</p>
+                            </div>
+                        </div><!--class_flex-->
+                        <p class="class_name">Ballet — Ron</p>
+                    </div><!--class_container-->
+                </li>
+                <li>
+                    <p class="week week1">FRI</p>
+                    <div class="class_container">
+                        <div class="class_flex">
+                            <p class="time">10:00 - 10:50</p>
+                            <div class="level">
+                                <p class="adv_mark"></p>
+                                <p>Advanced</p>
+                            </div>
+                        </div><!--class_flex-->
+                        <p class="class_name">Ballet Fit — Suzy</p>
+                        <div class="class_flex">
+                            <p class="time">16:00 - 16:50</p>
+                            <div class="level">
+                                <p class="bas_mark"></p>
+                                <p>Basic</p>
+                            </div>
+                        </div><!--class_flex-->
+                        <p class="class_name">Kids Class(B) — Lina</p>
+                        <div class="class_flex">
+                            <p class="time">20:00 - 20:50</p>
+                            <div class="level">
+                                <p class="bas_mark"></p>
+                                <p>Basic</p>
+                            </div>
+                        </div><!--class_flex-->
+                        <p class="class_name">Ballet — Ron</p>
+                        <div class="class_flex">
+                            <p class="time">21:00 - 21:50</p>
+                            <div class="level">
+                                <p class="adv_mark"></p>
+                                <p>Advanced</p>
+                            </div>
+                        </div><!--class_flex-->
+                        <p class="class_name">Contemporary Dance — Tylor</p>
+                    </div><!--class_container-->
+                </li>
+                <li>
+                    <p class="week week2">SAT</p>
+                    <div class="class_container">
+                        <div class="class_flex">
+                            <p class="time">10:00 - 10:50</p>
+                            <div class="level">
+                                <p class="bas_mark"></p>
+                                <p>Basic</p>
+                            </div>
+                        </div><!--class_flex-->
+                        <p class="class_name">Ballet Fit — Lina</p>
+                        <div class="class_flex">
+                            <p class="time">10:00 - 10:50</p>
+                            <div class="level">
+                                <p class="bas_mark"></p>
+                                <p>Basic</p>
+                            </div>
+                        </div><!--class_flex-->
+                        <p class="class_name">Kids Class(C) — Suzy</p>
+                        <div class="class_flex">
+                            <p class="time">15:00 - 15:50</p>
+                            <div class="level">
+                                <p class="bas_mark"></p>
+                                <p>Basic</p>
+                            </div>
+                        </div><!--class_flex-->
+                        <p class="class_name">Contemporary Dance — Tylor</p>
+                        <div class="class_flex">
+                            <p class="time">16:00 - 16:50</p>
+                            <div class="level">
+                                <p class="adv_mark"></p>
+                                <p>Advanced</p>
+                            </div>
+                        </div><!--class_flex-->
+                        <p class="class_name">Ballet — Ron</p>
+                    </div><!--class_container-->
+                </li>
+            </ul>
+        </div><!--schedule-->
+
+        <div id="ticket">
+            <div class="slogan_slide slide_gradient1">
+                <div class="slogan_slide_wrapper">
+                    <ul>
+                        <li>play allegro</li>
+                        <li>play allegro</li>
+                        <li>play allegro</li>
+                        <li>play allegro</li>
+                        <li>play allegro</li>
+                    </ul>
+                    <ul>
+                        <li>play allegro</li>
+                        <li>play allegro</li>
+                        <li>play allegro</li>
+                        <li>play allegro</li>
+                        <li>play allegro</li>
+                    </ul>
+                </div><!--slogan_slide_wrapper-->
+            </div><!--slogan_slide-->
+
+            <p class="title">Tickets</p>
+            <div class="promotion">
+                <p class="promotion_title">Free Ticket Promotion</p>
+                <p><img src="./images/ticket1.png" alt="티켓이미지1"></p>
+                <p class="promotion_txt" data-aos="fade-up" data-aos-duration="1500">🎵 나를 위한 알레그로한 시간, 지금 바로 체험해보세요
+                    🎵<br>
+                    🩰 원하는 수업을 선택하여 다른 수강생들과 함께 들을 수 있습니다 🩰<br><Br>
+                    <span>* 안전을 위해 Basic 클래스에 한해 신청할 수 있습니다.</span>
+                </p>
+                <p class="promotion_date" data-aos="fade" data-aos-duration="1000" data-aos-delay="1000">2024. 06. 01
+                    - 2024. 12. 31</p>
+                <div class="glassy glassy3"><img src="./images/glassy3.png" alt="버블 이미지3"></div>
+                <div class="glassy glassy5"><img src="./images/glassy5.png" alt="버블 이미지5"></div>
+                <div class="glassy glassy6"><img src="./images/glassy6.png" alt="버블 이미지6"></div>
+                <div class="glassy glassy8"><img src="./images/glassy8.png" alt="버블 이미지8"></div>
+            </div><!--promotion-->
+            <ul>
+                <li>
+                    <p class="ticket_img"><img src="./images/ticket1.png" alt="티켓이미지1"></p>
+                    <p>1 Class</p>
+                    <p class="price">10,000 KRW</p>
+                    <p class="purchase login">Purchase</p>
+                </li>
+                <li>
+                    <p class="ticket_img"><img src="./images/ticket2.png" alt="티켓이미지2"></p>
+                    <p>5 Class</p>
+                    <p class="price">40,000 KRW</p>
+                    <p class="purchase login">Purchase</p>
+                </li>
+                <li>
+                    <p class="ticket_img"><img src="./images/ticket2.png" alt="티켓이미지2"></p>
+                    <p>10 Class</p>
+                    <p class="price">70,000 KRW</p>
+                    <p class="purchase login">Purchase</p>
+                </li>
+                <li>
+                    <p class="ticket_img"><img src="./images/ticket2.png" alt="티켓이미지2"></p>
+                    <p>20 Class</p>
+                    <p class="price">100,000 KRW</p>
+                    <p class="purchase login">Purchase</p>
+                </li>
+                <li>
+                    <p class="ticket_img"><img src="./images/ticket2.png" alt="티켓이미지2"></p>
+                    <p>30 Class</p>
+                    <p class="price">150,000 KRW</p>
+                    <p class="purchase login">Purchase</p>
+                </li>
+                <li>
+                    <p class="ticket_img"><img src="./images/ticket2.png" alt="티켓이미지2"></p>
+                    <p>40 Class</p>
+                    <p class="price">200,000 KRW</p>
+                    <p class="purchase login">Purchase</p>
+                </li>
+            </ul>
+
+            <div class="slogan_slide slide_gradient2">
+                <div class="slogan_slide_wrapper">
+                    <ul>
+                        <li>be allegro</li>
+                        <li>be allegro</li>
+                        <li>be allegro</li>
+                        <li>be allegro</li>
+                        <li>be allegro</li>
+                    </ul>
+                    <ul>
+                        <li>be allegro</li>
+                        <li>be allegro</li>
+                        <li>be allegro</li>
+                        <li>be allegro</li>
+                        <li>be allegro</li>
+                    </ul>
+                </div><!--slogan_slide_wrapper-->
+            </div><!--slogan_slide-->
+        </div><!--ticket-->
+
+        <div id="instagram">
+            <div class="img_slide">
+                <div class="img_slide_wrapper">
+                    <ul>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img src="./images/instagram_img1.jpg"
+                                    alt="인스타그램이미지1"></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img src="./images/instagram_img2.jpg"
+                                    alt="인스타그램이미지2"></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img src="./images/instagram_img3.jpg"
+                                    alt="인스타그램이미지3"></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img src="./images/instagram_img4.jpg"
+                                    alt="인스타그램이미지4"></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img src="./images/instagram_img5.jpg"
+                                    alt="인스타그램이미지5"></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img src="./images/instagram_img6.jpg"
+                                    alt="인스타그램이미지6"></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img src="./images/instagram_img7.jpg"
+                                    alt="인스타그램이미지7"></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img src="./images/instagram_img8.jpg"
+                                    alt="인스타그램이미지8"></a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img src="./images/instagram_img1.jpg"
+                                    alt="인스타그램이미지1"></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img src="./images/instagram_img2.jpg"
+                                    alt="인스타그램이미지2"></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img src="./images/instagram_img3.jpg"
+                                    alt="인스타그램이미지3"></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img src="./images/instagram_img4.jpg"
+                                    alt="인스타그램이미지4"></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img src="./images/instagram_img5.jpg"
+                                    alt="인스타그램이미지5"></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img src="./images/instagram_img6.jpg"
+                                    alt="인스타그램이미지6"></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img src="./images/instagram_img7.jpg"
+                                    alt="인스타그램이미지7"></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img src="./images/instagram_img8.jpg"
+                                    alt="인스타그램이미지8"></a>
+                        </li>
+                    </ul>
+                </div><!--img_slide_wrapper-->
+            </div><!--img_slide-->
+            <p class="sns_id">@_allegro_dancestudio</p>
+        </div><!--instagram-->
+
+        <footer>
+            <h1><a href="#"><img src="./images/logo.png" alt="로고이미지"></a></h1>
+            <div class="footer_content">
+                <div class="footer_txt">
+                    <p class="footer_title">Location</p>
+                    <p>부산광역시 해운대구 APEC로 68</p>
+                    <p class="footer_title">Contact Us</p>
+                    <p>+82 51-891-2345<br>
+                        allegrods@email.com</p>
+                </div><!--footer_txt-->
+                <ol>
+                    <li><a href="https://www.youtube.com/" target="_blank"><img src="./images/footer_icon1.png"
+                                alt="유튜브아이콘"></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><img src="./images/footer_icon2.png"
+                                alt="SNS아이콘"></a></li>
+                    <li><a href="https://accounts.kakao.com/login/?continue=https%3A%2F%2Fbusiness.kakao.com%2Fdashboard%2F#login"
+                            target="_blank"><img src="./images/footer_icon3.png" alt="카카오톡아이콘"></a></li>
+                </ol>
+            </div><!--footer_content-->
+            <p>Copyright © 2024 allegro. All Rights Reserved.</p>
+        </footer>
+    </div><!--wrap-->
+
+
+
+
+
+    <!--hamburger button-->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+    <!--cursor-->
+    <script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
+    <!--aos-->
+    <script>
+        AOS.init();
+    </script>
+    <!--move to <a>-->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

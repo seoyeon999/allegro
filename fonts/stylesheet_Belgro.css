@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Belgro';
+    src: url('Belgro.eot');
+    src: local('Belgro'),
+        url('Belgro.eot?#iefix') format('embedded-opentype'),
+        url('Belgro.woff2') format('woff2'),
+        url('Belgro.woff') format('woff'),
+        url('Belgro.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
