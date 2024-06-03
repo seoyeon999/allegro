@@ -467,7 +467,7 @@ header {
 .week {
     padding: 6px;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     border-bottom: 3px solid #fff;
 }
 
@@ -958,6 +958,7 @@ footer ol li {
         border-right: 0;
     }
 
+
     /*ticket*/
     .promotion_title {
         margin-bottom: 120px;
@@ -1088,7 +1089,6 @@ footer ol li {
     }
 
 
-
     /*schedule*/
     .level_explain {
         display: flex;
@@ -1126,8 +1126,8 @@ footer ol li {
         border-right: 3px solid #fff;
     }
 
-    #ticket>ul li:nth-child(6) {
-        border-top: 3px solid #fff;
+    #ticket>ul li:nth-child(4) {
+        border-bottom: 3px solid #fff;
     }
 
     /*instagram*/
